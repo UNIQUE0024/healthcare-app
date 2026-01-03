@@ -4,7 +4,7 @@ metadata:
   name: healthcare-service
   namespace: healthcare
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   ports:
   - port: 80
     targetPort: 8080
